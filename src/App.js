@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import { Component } from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={`${process.env.PUBLIC_URL}/img/logo-clean3000.png`} />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
