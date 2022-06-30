@@ -1,0 +1,73 @@
+@use "variables" as v;
+@use "mixins" as m;
+@use "reset";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #3D3D33;
+    font-family: "Roboto";
+    font-size: 1.6rem;
+}
+
+.App {
+    background-color: #3D3D33;
+    text-align: center;
+
+
+    .App-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .App-logo {
+            width: 40rem;
+        }
+
+    }
+
+    .App-container {
+        width: 100%;
+    }
+
+
+
+
+
+
+    Button {
+        width: 25%;
+        background-color: #55AB41;
+        color: white;
+    }
+
+
+}
+
+.recap {
+    font-family: "Roboto";
+    text-align: center;
+
+
+
+    h2 {
+        color: #55AB41;
+        font-size: 3rem;
+    }
+
+    p {
+        color: white;
+    }
+
+    button {
+        width: 25%;
+        background-color: #55AB41;
+        color: white;
+    }
+}
